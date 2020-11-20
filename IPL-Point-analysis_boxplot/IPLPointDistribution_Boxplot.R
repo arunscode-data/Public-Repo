@@ -11,8 +11,8 @@ par(bg = colors()[478])
 # range=0.0 ensures the Whiskers are extended till the outliers
 # col sets the color for the boxes
 IPLpointboxplot <- boxplot(IPLData$Points~IPLData$Year,ylab = 'Points',xlab = 'Year', 
-        main= 'IPL Point distribution (2008-2020)',
-        range= 0.0,
+        main = 'IPL Point distribution (2008-2020)',
+        range = 0.0,
         col = colors()[636])
 # Displays the resultant plot
 IPLpointboxplot
