@@ -14,6 +14,6 @@ IPLpointboxplot <- boxplot(IPLData$Points~IPLData$Year,ylab = 'Points',xlab = 'Y
         main = 'IPL Point distribution (2008-2020)',
         range = 0.0,
         col = colors()[636])
-# Displays the resultant plot
+# To display the resultant plot
 IPLpointboxplot
 
