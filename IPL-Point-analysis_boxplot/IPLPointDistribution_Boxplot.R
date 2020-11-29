@@ -1,6 +1,5 @@
 # To read the csv dataset for IPL team-wise points from 2008-2020 from Github
-url <- getURL("https://raw.githubusercontent.com/arunscode-data/Public-Repo/Dataset/Points%20summary_IPL_2008-2020.csv")
-IPLData <- read.csv("https://raw.githubusercontent.com/arunscode-data/Public-Repo/Dataset/Points%20summary_IPL_2008-2020.csv")
+IPLData <- read.csv("https://raw.githubusercontent.com/arunscode-data/Public-Repo/master/IPL-Point-analysis_boxplot/Dataset/Points%20summary_IPL_2008-2020.csv")
 # To display the data set
 IPLData 
 # Summary of the attributes in the dataset
